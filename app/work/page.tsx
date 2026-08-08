@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import { workItems } from "@/lib/data";
 
@@ -23,10 +24,21 @@ export default function WorkPage() {
               id={item.slug}
               className="group rounded-2xl overflow-hidden border border-espresso/10 bg-sand-beige/20 hover:bg-sand-beige/35 transition-colors"
             >
-              <div className="aspect-[16/10] bg-gradient-to-br from-caramel-brown/30 to-espresso/20 flex items-center justify-center">
-                <span className="font-display text-5xl text-espresso/40 group-hover:text-espresso/60 transition-colors">
-                  {item.name.slice(0, 2).toUpperCase()}
-                </span>
+              <div className="aspect-[16/10] relative overflow-hidden">
+                {item.image ? (
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-caramel-brown/30 to-espresso/20 flex items-center justify-center">
+                    <span className="font-display text-5xl text-espresso/40 group-hover:text-espresso/60 transition-colors">
+                      {item.name.slice(0, 2).toUpperCase()}
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="p-8">
                 <h2 className="font-display text-2xl mb-1">{item.name}</h2>
