@@ -6,6 +6,7 @@
   --caramel-brown: #8A5A3B;
   --espresso: #33241F;
   --black: #080808;
+  --rust: #B5502F;
 
   --background: var(--oat-cream);
   --foreground: var(--espresso);
@@ -17,6 +18,7 @@
   --color-sand-beige: var(--sand-beige);
   --color-caramel-brown: var(--caramel-brown);
   --color-espresso: var(--espresso);
+  --color-rust: var(--rust);
   --color-black-deep: var(--black);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
