@@ -12,7 +12,7 @@ export const services: Service[] = [
     slug: "web-development",
     name: "Web Development",
     tagline: "Fast, custom-built sites that convert",
-    ticker: "Shopify Development|WordPress Development|Performance|SEO  ",
+    ticker: "Shopify Development | WordPress Development | Performance | SEO  ",
     description:
       "We build fast, conversion-focused websites on Shopify and WordPress, custom-coded rather than templated. From product pages to checkout flows, every build is tuned for speed, clarity, and results.",
     offerings: [
@@ -26,9 +26,9 @@ export const services: Service[] = [
     slug: "social-media-management",
     name: "Social Media Management",
     tagline: "Content and strategy that builds an audience",
-    ticker: "Strategy – Content Calendars – Instagram – TikTok – Growth – ",
+    ticker: "Strategy | Content Calendars | Instagram | TikTok | Growth ",
     description:
-      "We plan, create, and manage social content that builds real audiences — not just impressions. Strategy, content calendars, and community management, tailored to how your brand actually talks.",
+      "We plan, create, and manage social content that builds real audiences not just impressions. Strategy, content calendars, and community management, tailored to how your brand actually talks.",
     offerings: [
       "Content strategy & monthly calendars",
       "Instagram, TikTok & LinkedIn management",
@@ -40,7 +40,7 @@ export const services: Service[] = [
     slug: "video-editing",
     name: "Video Editing",
     tagline: "Reels, ads, and brand video that hold attention",
-    ticker: "Reels|Brand Films|Product|Video ",
+    ticker: "Reels | Brand Films | Product | Video ",
     description:
       "From short-form reels to brand films, we edit video that holds attention in the first two seconds and keeps it. Pacing, sound design, and motion built for how people actually watch.",
     offerings: [
@@ -54,7 +54,7 @@ export const services: Service[] = [
     slug: "graphic-design",
     name: "Graphic Design",
     tagline: "Visual identity that holds together everywhere",
-    ticker: "BrandingIdentity|Social Assets",
+    ticker: "BrandingIdentity | Social Assets",
     description:
       "Logos, identity systems, packaging, and social assets designed to hold together as one visual language, not a pile of one-off graphics.",
     offerings: [
