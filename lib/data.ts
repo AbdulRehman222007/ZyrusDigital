@@ -81,7 +81,7 @@ export const workItems: WorkItem[] = [
     category: "Web Development",
     summary:
       "Full Shopify build with custom order tracking, shipping automation, and payment integration.",
-    image: "/champion-screenshot.jpg",
+    image: "/champion-screenshot.png",
   },
   {
     slug: "zilzohaib-textile",
@@ -96,6 +96,6 @@ export const workItems: WorkItem[] = [
     category: "Graphic Design / Social Media",
     summary:
       "Brand identity, site redesign, and content system for a Karachi-based streetwear label.",
-    image: "/swrv-screenshot.jpg",
+    image: "/swrv-screenshot.png",
   },
 ];
