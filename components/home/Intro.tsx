@@ -8,7 +8,7 @@ export default function Intro() {
         <p className="text-lg md:text-2xl leading-relaxed max-w-4xl text-caramel-brown">
           Karachi-built, detail-driven, and direct. We&apos;re a digital agency working
           across web development, social media management, video editing, and graphic
-          design — for brands that want their online presence to actually convert, not
+          design for brands that want their online presence to actually convert, not
           just look good. Clear scope, clean execution, no filler. This is Zyrus Agency.
         </p>
       </Reveal>
