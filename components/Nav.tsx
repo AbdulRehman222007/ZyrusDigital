@@ -37,7 +37,7 @@ export default function Nav() {
             ))}
           </ul>
         </li>
-        <li><Link href="/work" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/work" ? "opacity-100" : "opacity-70"}`}>Work / Portfolio</Link></li>
+        <li><Link href="/work" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/work" ? "opacity-100" : "opacity-70"}`}>Work</Link></li>
         <li><Link href="/about" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/about" ? "opacity-100" : "opacity-70"}`}>About</Link></li>
         <li><Link href="/contact" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/contact" ? "opacity-100" : "opacity-70"}`}>Contact</Link></li>
       </ul>
@@ -60,7 +60,7 @@ export default function Nav() {
         <div className="fixed inset-0 z-30 bg-oat-cream flex flex-col items-center justify-center gap-8 md:hidden">
           <Link href="/" onClick={() => setOpen(false)} className="font-display text-3xl">Home</Link>
           <Link href="/services" onClick={() => setOpen(false)} className="font-display text-3xl">Services</Link>
-          <Link href="/work" onClick={() => setOpen(false)} className="font-display text-3xl">Work / Portfolio</Link>
+          <Link href="/work" onClick={() => setOpen(false)} className="font-display text-3xl">Portfolio</Link>
           <Link href="/about" onClick={() => setOpen(false)} className="font-display text-3xl">About</Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="font-display text-3xl">Contact</Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="liquid-glass text-base text-espresso px-10 py-4 rounded-full mt-4 border-2 border-rust">
