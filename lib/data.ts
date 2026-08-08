@@ -96,6 +96,6 @@ export const workItems: WorkItem[] = [
     category: "Graphic Design / Social Media",
     summary:
       "Brand identity, site redesign, and content system for a Karachi-based streetwear label.",
-    image: "/swrv-screenshot.png",
+    image: "/swrvattire-screenshot.png",
   },
 ];
