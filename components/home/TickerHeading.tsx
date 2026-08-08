@@ -1,5 +1,5 @@
 export default function TickerHeading() {
-  const line = "We build brands that outlast the trend ";
+  const line = "We build brands that outlast the trend   ";
 
   return (
     <section className="border-y border-espresso/10 py-10 overflow-hidden">
