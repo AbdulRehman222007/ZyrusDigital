@@ -12,7 +12,7 @@ export const services: Service[] = [
     slug: "web-development",
     name: "Web Development",
     tagline: "Fast, custom-built sites that convert",
-    ticker: "Shopify – WordPress – Liquid – Performance – SEO – ",
+    ticker: "Shopify Development|WordPress Development|Performance|SEO  ",
     description:
       "We build fast, conversion-focused websites on Shopify and WordPress, custom-coded rather than templated. From product pages to checkout flows, every build is tuned for speed, clarity, and results.",
     offerings: [
@@ -40,7 +40,7 @@ export const services: Service[] = [
     slug: "video-editing",
     name: "Video Editing",
     tagline: "Reels, ads, and brand video that hold attention",
-    ticker: "Reels – Brand Films – Product Video – Motion – Sound Design – ",
+    ticker: "Reels|Brand Films|Product|Video ",
     description:
       "From short-form reels to brand films, we edit video that holds attention in the first two seconds and keeps it. Pacing, sound design, and motion built for how people actually watch.",
     offerings: [
@@ -54,9 +54,9 @@ export const services: Service[] = [
     slug: "graphic-design",
     name: "Graphic Design",
     tagline: "Visual identity that holds together everywhere",
-    ticker: "Branding – Identity – Packaging – Social Assets – Print – ",
+    ticker: "BrandingIdentity|Social Assets",
     description:
-      "Logos, identity systems, packaging, and social assets — designed to hold together as one visual language, not a pile of one-off graphics.",
+      "Logos, identity systems, packaging, and social assets designed to hold together as one visual language, not a pile of one-off graphics.",
     offerings: [
       "Brand identity & logo design",
       "Packaging & print design",
@@ -91,8 +91,8 @@ export const workItems: WorkItem[] = [
   {
     slug: "swrv-attire",
     name: "SWRV Attire",
-    category: "Graphic Design / Social Media",
+    category: "Web Development & Social Media",
     summary:
-      "Brand identity, site redesign, and content system for a Karachi-based streetwear label.",
+      "Brand identity, site built, and content system for a Karachi-based streetwear label.",
   },
 ];
