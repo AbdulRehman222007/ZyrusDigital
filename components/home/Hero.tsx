@@ -34,7 +34,7 @@ export default function Hero() {
         <Link
           href="/contact"
           data-cursor-hover
-          className="reveal-gate liquid-glass text-base text-espresso px-14 py-5 rounded-full mt-12 inline-block transition-transform hover:scale-[1.03]"
+          className="reveal-gate liquid-glass text-base text-espresso px-14 py-5 rounded-full mt-12 inline-block transition-transform hover:scale-[1.03] border-2 border-rust hover:bg-rust hover:text-oat-cream"
           style={{ animationDelay: "0.4s" }}
         >
           Start a Project
