@@ -33,7 +33,7 @@ export default function WorkPreview() {
       src={item.image}
       alt={item.name}
       fill
-      className="object-contain object-top group-hover:scale-105 transition-transform duration-500"
+      className="object-cover group-hover:scale-105 transition-transform duration-500"
     />
   ) : (
                   <div className="w-full h-full bg-gradient-to-br from-caramel-brown/30 to-espresso/20 flex items-center justify-center">
