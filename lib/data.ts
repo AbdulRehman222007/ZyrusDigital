@@ -71,6 +71,7 @@ export type WorkItem = {
   name: string;
   category: string;
   summary: string;
+  image?: string;
 };
 
 export const workItems: WorkItem[] = [
@@ -80,6 +81,7 @@ export const workItems: WorkItem[] = [
     category: "Web Development",
     summary:
       "Full Shopify build with custom order tracking, shipping automation, and payment integration.",
+    image: "/champion-screenshot.jpg",
   },
   {
     slug: "zilzohaib-textile",
@@ -91,8 +93,9 @@ export const workItems: WorkItem[] = [
   {
     slug: "swrv-attire",
     name: "SWRV Attire",
-    category: "Web Development & Social Media",
+    category: "Graphic Design / Social Media",
     summary:
-      "Brand identity, site built, and content system for a Karachi-based streetwear label.",
+      "Brand identity, site redesign, and content system for a Karachi-based streetwear label.",
+    image: "/swrv-screenshot.jpg",
   },
 ];
