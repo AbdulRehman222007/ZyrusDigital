@@ -29,7 +29,7 @@ export default function Hero() {
         >
           We&apos;re a digital agency building web experiences, brand content, and visual
           identity for businesses that want to stand out. Web development, social media,
-          video, and design — under one roof.
+          video, and design under one roof.
         </p>
 
         <Link
