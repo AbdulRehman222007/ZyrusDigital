@@ -21,6 +21,7 @@ export default function Nav() {
             Home
           </Link>
         </li>
+        <li><Link href="/about" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/about" ? "opacity-100" : "opacity-70"}`}>About</Link></li>
         <li className="relative group">
           <button data-cursor-hover className={`flex items-center gap-1.5 text-sm transition-opacity hover:opacity-100 ${pathname.startsWith("/services") ? "opacity-100" : "opacity-70"}`}>
             Services
@@ -37,8 +38,7 @@ export default function Nav() {
             ))}
           </ul>
         </li>
-        <li><Link href="/work" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/work" ? "opacity-100" : "opacity-70"}`}>Work</Link></li>
-        <li><Link href="/about" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/about" ? "opacity-100" : "opacity-70"}`}>About</Link></li>
+        <li><Link href="/work" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/work" ? "opacity-100" : "opacity-70"}`}>Projects</Link></li>
         <li><Link href="/contact" data-cursor-hover className={`text-sm transition-opacity hover:opacity-100 ${pathname === "/contact" ? "opacity-100" : "opacity-70"}`}>Contact</Link></li>
       </ul>
 
